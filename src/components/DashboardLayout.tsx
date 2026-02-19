@@ -17,12 +17,8 @@ const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
       <header className="bg-primary text-primary-foreground shadow-md">
         <div className="max-w-7xl mx-auto flex items-center justify-between px-4 h-16">
           <div className="flex items-center gap-6">
-            <Link to="/dashboard" className="flex items-center gap-2 font-extrabold text-xl tracking-tight">
-              <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
-                <rect width="32" height="32" rx="4" fill="currentColor" fillOpacity="0.15" />
-                <path d="M8 8h7v7H8V8zm9 0h7v7h-7V8zm-9 9h7v7H8v-7zm9 0h7v7h-7v-7z" fill="currentColor" />
-              </svg>
-              <span>CHASE</span>
+            <Link to="/dashboard" className="flex items-center gap-2">
+              <img src="/chase-logo.png" alt="Chase" className="h-8" />
             </Link>
             <nav className="hidden md:flex items-center gap-1 text-sm">
               {navLinks.map((link) => (
