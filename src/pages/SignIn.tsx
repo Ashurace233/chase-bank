@@ -16,7 +16,7 @@ const SignIn = () => {
     setIsLoading(true);
 
     setTimeout(() => {
-      if (username === "badamyor567" && password === "525@4262gg") {
+      if (username === "Adrian90miles" && password === "Tank10089##") {
         navigate("/dashboard");
       } else {
         setError("Please check your username and password and try again.");
